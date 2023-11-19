@@ -1,0 +1,76 @@
+<style>
+		
+		.addbutton
+        {
+            background-color: #FF1493;
+            font-family:arial ;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+        }
+        .addbutton:hover
+        {
+            background-color: maroon;
+            color:#FF1493;
+            border:5px;
+        }
+        
+         .slideshow-container {
+            max-width: 500px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Style for the images */
+        .mySlides {
+            display: none;
+        }
+
+        /* Style for the navigation dots */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            background-color: #fff;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            width: calc(40.33% - 20px); /* Adjusted width and removed the -70px */
+        }
+
+        .item img {
+            width:300px ;
+            height: auto;
+            max-height: 300px; 
+        }
+
+        .item-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto; /* Center the item container on the page */
+            color:black;
+            font-family: verdana;
+        }
+
+
+</style>
